@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Axios.post("http://localhost:3000/auth/login", {
-    Axios.post("https://prime-gemini-clone-backend.vercel.app/auth/login",{
+    Axios.post("https://prime-gemini-clone-backend.vercel.app/login",{
       email, password,
     })
       .then(response => {
