@@ -12,7 +12,7 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Axios.post("http://localhost:3000/auth/signup", {
-    Axios.post("https://prime-gemini-clone-backend.vercel.app/auth/signup",{
+    Axios.post("https://prime-gemini-clone-backend.vercel.app/signup",{
       username, email, password,
     })
       .then(response => {
